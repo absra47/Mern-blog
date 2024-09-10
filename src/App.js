@@ -4,14 +4,14 @@ function App() {
   return (
     <main>
       <header>
-        <a href="" className="logo">
+        <a href="/" className="logo">
           My blog
         </a>
         <nav>
-          <a href="" className="login">
+          <a href="/" className="login">
             Login
           </a>
-          <a href="" className="register">
+          <a href="/" className="register">
             Register
           </a>
         </nav>
@@ -27,7 +27,9 @@ function App() {
         <div className="text">
           <h2>SpaceX launches Polaris Dawn</h2>
           <p className="info">
-            <a className="author">Absra Girma</a>
+            <a href="/" className="author">
+              Absra Girma
+            </a>
             <time>2024-09-10 20:03</time>
           </p>
           <p className="summary">
@@ -47,7 +49,9 @@ function App() {
         <div className="text">
           <h2>SpaceX launches Polaris Dawn</h2>
           <p className="info">
-            <a className="author">Absra Girma</a>
+            <a href="/" className="author">
+              Absra Girma
+            </a>
             <time>2024-09-10 20:03</time>
           </p>
           <p className="summary">
@@ -67,7 +71,9 @@ function App() {
         <div className="text">
           <h2>SpaceX launches Polaris Dawn</h2>
           <p className="info">
-            <a className="author">Absra Girma</a>
+            <a href="/" className="author">
+              Absra Girma
+            </a>
             <time>2024-09-10 20:03</time>
           </p>
           <p className="summary">
