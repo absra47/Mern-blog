@@ -1,24 +1,83 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <main>
+      <header>
+        <a href="" className="logo">
+          My blog
         </a>
+        <nav>
+          <a href="" className="login">
+            Login
+          </a>
+          <a href="" className="register">
+            Register
+          </a>
+        </nav>
       </header>
-    </div>
+
+      <div className="post">
+        <div className="image">
+          <img
+            src="https://techcrunch.com/wp-content/uploads/2024/09/Polaris-Dawn.jpeg?resize=1280,561"
+            alt=""
+          />
+        </div>
+        <div className="text">
+          <h2>SpaceX launches Polaris Dawn</h2>
+          <p className="info">
+            <a className="author">Absra Girma</a>
+            <time>2024-09-10 20:03</time>
+          </p>
+          <p className="summary">
+            The suits are especially exciting given SpaceX’s longterm ambitions
+            to establish a human colony on Mars, as hundreds or thousands of
+            people could wear similar suits in the future.
+          </p>
+        </div>
+      </div>
+      <div className="post">
+        <div className="image">
+          <img
+            src="https://techcrunch.com/wp-content/uploads/2024/09/Polaris-Dawn.jpeg?resize=1280,561"
+            alt=""
+          />
+        </div>
+        <div className="text">
+          <h2>SpaceX launches Polaris Dawn</h2>
+          <p className="info">
+            <a className="author">Absra Girma</a>
+            <time>2024-09-10 20:03</time>
+          </p>
+          <p className="summary">
+            The suits are especially exciting given SpaceX’s longterm ambitions
+            to establish a human colony on Mars, as hundreds or thousands of
+            people could wear similar suits in the future.
+          </p>
+        </div>
+      </div>
+      <div className="post">
+        <div className="image">
+          <img
+            src="https://techcrunch.com/wp-content/uploads/2024/09/Polaris-Dawn.jpeg?resize=1280,561"
+            alt=""
+          />
+        </div>
+        <div className="text">
+          <h2>SpaceX launches Polaris Dawn</h2>
+          <p className="info">
+            <a className="author">Absra Girma</a>
+            <time>2024-09-10 20:03</time>
+          </p>
+          <p className="summary">
+            The suits are especially exciting given SpaceX’s longterm ambitions
+            to establish a human colony on Mars, as hundreds or thousands of
+            people could wear similar suits in the future.
+          </p>
+        </div>
+      </div>
+    </main>
   );
 }
 
